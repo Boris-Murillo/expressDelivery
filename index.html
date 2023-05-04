@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+	<title>Empresa de Servicios de Mensajería</title>
+</head>
+<body>
+	<header>
+		<h1>Express Delivery</h1>
+	</header>
+	<section>
+		<h2>Servicios</h2>
+		<ul>
+			<li>
+				<h3>Entrega puerta a puerta</h3>
+				<p>La entrega puerta a puerta consta de la entrega directa del paquete en la dirección especificada por el remitente, ya sea una casa, una oficina o cualquier otro lugar designado. Este servicio proporciona comodidad y facilidad para el remitente y el destinatario, ya que no tienen que preocuparse por recoger o entregar el paquete en una ubicación específica.</p>
+			</li>
+			<li>
+				<h3>Seguimiento del proceso</h3>
+				<p>El seguimiento del proceso es una herramienta útil para los remitentes y destinatarios de paquetes, ya que les permite monitorear el progreso y ubicación del envío en tiempo real. El proceso de seguimiento típicamente comienza cuando se genera una etiqueta de envío que incluye un número de seguimiento único, el cual se puede ingresar en la página web de la empresa de mensajería. Una vez que se ha ingresado el número de seguimiento, se puede ver el progreso del paquete, incluyendo su ubicación actual, las fechas y horas de entrega estimadas, y cualquier cambio en el estado del envío.</p>
+			</li>
+			<li>
+				<h3>Sistema de entrega programado</h3>
+				<p>El sistema de entrega programado es un servicio de mensajería es una opción conveniente para aquellos que desean especificar una fecha y hora específicas para la entrega de su paquete. Este sistema de entrega programado es especialmente útil para personas que tienen horarios de trabajo ocupados o compromisos previos, y necesitan asegurarse de que el paquete sea entregado en un momento en que estén disponibles para recibirlo.</p>
+			</li>
+		</ul>
+	</section>
+    <section class="mission-vision">
+        <div class="mission">
+          <h2>Misión</h2>
+          <p>Nuestro compromiso es desarrollar con eficiencia y eficacia todas las actividades logísticas con el fin de dar respuesta a las necesidades de los clientes y formando parte activa en la consecución de sus objetivos, integrando todo el servicio que requieran en un solo y para todo tipo de mercancías, manteniendo todos los estándares de calidad, seguridad, agilidad y eficacia en nuestro servicio brindado.</p>
+        </div>
+        <div class="vision">
+          <h2>Visión</h2>
+          <p>Afianzarnos como uno de los principales operadores logísticos, aportando soluciones profesionales y personalizadas en el ámbito del transporte y la logística, con clara orientación al cliente, basada en la formación, motivación, compromiso e implicación de nuestro equipo humano.</p>
+        </div>
+      </section>
+	<section style="background-image: url('fondo.png');">
+		<h2>Contacto</h2>
+		<form id="formulario" onsubmit="return validarFormulario();">
+			<label for="nombre">Nombre:</label>
+			<input type="text" id="nombre" name="nombre" required>
+			<label for="email">Email:</label>
+			<input type="email" id="email" name="email" required>
+			<label for="mensaje">Mensaje:</label>
+			<textarea id="mensaje" name="mensaje" required></textarea>
+			<button type="submit">Enviar</button>
+		</form>
+	</section>
+	<footer>
+		<p>Derechos reservados &copy; Express Delivery 2023</p>
+	</footer>
+    <script src="validation.js"></script>
+</body>
+</html>
